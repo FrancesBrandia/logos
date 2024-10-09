@@ -1,0 +1,36 @@
+<!--Update Oct 9, 2024-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display SVG Logos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="home">
+        <h2>Logos</h2>
+    </section>
+    <section id="search">
+        <select class="filter-dropdown" id="logo-filter">
+            <option value="all" selected>View All</option>
+            <option value="Corporate">Corporate</option>
+            <option value="ACR Dir Link">ACR Dir Link</option>
+            <option value="ACR Assess-AI">ACR Assess-AI</option>
+            <option value="Federated Network">Federated Network</option>
+            <option value="TRIAD">TRIAD</option>
+            <option value="ALZ-NET">ALZ-NET</option>
+            <option value="TRIAD Uploader">TRIAD Uploader</option>
+            <option value="CIRR">CIRR</option>
+        </select>
+        <input type="text" id="logo-search" placeholder="Search logos..." />
+    </section>
+
+    <section id="logos">
+        <div id="svg-container"></div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
